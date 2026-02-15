@@ -1,0 +1,15 @@
+docker network create n8n_network
+docker volume create postgres_data
+
+
+checkup
+
+ravik@IRON:~$ docker exec -it n8n_postgres psql -U n8n -d n8n -c "select * from store.products limit 5;"
+  product   |  brand  |   price   | least_sp
+------------+---------+-----------+-----------
+ Smartphone | Apple   |  79999.00 |  72000.00
+ Smartphone | Samsung |  69999.00 |  62000.00
+ Laptop     | Dell    |  74990.00 |  68000.00
+ Laptop     | Lenovo  |  68990.00 |  63000.00
+ Laptop     | Apple   | 129900.00 | 118000.00
+(5 rows)

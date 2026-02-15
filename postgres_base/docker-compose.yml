@@ -1,0 +1,28 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: n8n_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: n8n
+      POSTGRES_USER: n8n
+      POSTGRES_PASSWORD: n8n_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      # Run schema + seed only on first init (when volume is empty)
+      - ./initdb:/docker-entrypoint-initdb.d:ro
+    networks:
+      - n8n_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U n8n -d n8n"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+volumes:
+  postgres_data:
+    external: true
+
+networks:
+  n8n_network:
+    external: true
