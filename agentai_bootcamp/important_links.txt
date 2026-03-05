@@ -1,0 +1,265 @@
+Resource List
+LLM Benchmarks & Leaderboards
+ Artificial Analysis – Independent LLM benchmarks and performance
+comparisons
+https://artificialanalysis.ai/
+ LLM Arena – Human preference-based model leaderboard (Chatbot Arena)
+https://lmarena.ai/leaderboard ☁️
+Model Providers & Routing
+ OpenRouter – Unified API for accessing multiple LLM providers
+https://openrouter.ai/
+ DeepSeek – Advanced open-source and proprietary LLM provider
+https://www.deepseek.com/
+ Groq – Ultra-fast AI inference platform
+https://groq.com/
+ OpenAI Platform – Developer platform and API management
+https://platform.openai.com/playground
+ ChatGPT – OpenAI’s consumer chat interface
+https://chatgpt.com/
+ Anthropic Console – Developer dashboard for Claude models
+https://console.anthropic.com/dashboard
+ Anthropic Models – Overview of available Claude models
+https://docs.anthropic.com/en/docs/about-claude/models
+ Google AI Studio – Prototyping environment for Gemini models
+https://aistudio.google.com/prompts/new_chat
+ Meta for Developers – Facebook/Meta AI resources
+https://developers.facebook.com/
+🧠 Prompt Engineering & Optimization
+ OpenAI Prompt Optimizer – Tool to optimize system prompts (GPT-5/4o)
+https://platform.openai.com/chat/edit?models=gpt-5&optimize=true
+ OpenAI Tokenizer – Check token usage for text strings
+https://platform.openai.com/tokenizer
+ ElevenLabs Prompting Guide – Best practices for conversational voice
+agents
+https://elevenlabs.io/docs/conversational-ai/best-practices/prompting-guide
+ Anthropic Prompt Caching – Guide to reducing costs/latency via caching
+https://www.anthropic.com/news/prompt-caching
+💻 Local LLM & AI Runtimes
+ Ollama – Run LLMs locally via a simple CLI
+https://ollama.com/
+ Ollama Commands – Official CLI command reference (GitHub)
+https://github.com/ollama/ollama/blob/main/README.md
+ LM Studio – Desktop GUI for running local LLM inference
+https://lmstudio.ai/
+ Anything LLM – Full-stack local RAG and LLM workspace
+https://useanything.com/
+ Open WebUI – Feature-rich, self-hosted web interface for LLMs
+https://github.com/open-webui/open-webui
+ Pinokio – One-click browser-based installer for various AI tools
+https://pinokio.co/
+🤖 Agent Frameworks & Platforms
+ LangChain – Comprehensive framework for building LLM applications
+https://www.langchain.com/
+ LangGraph – Library for building stateful, multi-actor applications
+https://www.langchain.com/langgraph
+ Langflow – Visual drag-and-drop builder for LangChain apps
+https://www.langflow.org/
+ Flowise – Open-source low-code tool for developers to build LLM apps
+https://flowiseai.com/
+ Flowise (GitHub) – Source code for Flowise
+https://github.com/FlowiseAI/Flowise
+ Microsoft AutoGen – Framework for enabling multiple agents to converse
+https://microsoft.github.io/autogen/stable/
+ CrewAI – Framework for orchestrating role-playing autonomous AI agents
+https://www.crewai.com/
+ OpenAI Swarm – Experimental, lightweight multi-agent orchestration
+https://github.com/openai/swarm
+ Dify – Open-source LLM app development platform
+https://dify.ai/
+ Voiceflow – Platform for building conversational AI and voice agents
+https://www.voiceflow.com/
+ Botpress – Visual builder for creating AI chatbots
+https://botpress.com/
+ Stack AI – No-code interface for building AI workflows
+https://www.stack-ai.com/
+ VectorShift – Enterprise-grade AI workflow automation
+https://vectorshift.ai/
+ Manus – Platform for autonomous AI agents
+https://manus.im/app
+ Lindy – AI employee/assistant for productivity
+https://www.lindy.ai/
+ Lovable – AI-powered application builder
+https://lovable.dev/
+ Base44 – AI-first software development platform
+https://base44.com/
+ Devin – The first fully autonomous AI software engineer
+https://devin.ai/
+Pydantic AI
+ PydanticAI Docs – Official documentation
+https://ai.pydantic.dev/
+ PydanticAI (GitHub) – Framework source code
+https://github.com/pydantic/pydantic-ai
+ My Deep Research Agent – Pydantic AI research agent
+https://github.com/Arnie936/Pydantic-AI-Deep-Research-Agent
+🔌 MCP (Model Context Protocol)
+ Introduction to MCP – Official announcement by Anthropic
+https://www.anthropic.com/news/model-context-protocol
+ MCP Documentation – Official protocol specification and guide
+https://modelcontextprotocol.io/introduction
+ Claude MCP Hub – Central resource for Claude Desktop MCP integrations
+https://www.claudemcp.com/
+ Official MCP Servers – Reference implementations by the MCP team
+https://github.com/modelcontextprotocol/servers
+ MCP Server Directory – Community index of available MCP servers
+https://mcp.so/
+ Awesome MCP Servers – Curated list of community MCP servers
+https://github.com/punkpeye/awesome-mcp-servers
+ MCP Installer – Tool to easily install MCP servers
+https://github.com/anaisbetts/mcp-installer
+ MCP Prompt Templates – Collection of reusable prompts for MCP
+https://github.com/mikeskarl/mcp-prompt-templates
+ Blender MCP – Control Blender 3D via MCP
+https://github.com/ahujasid/blender-mcp
+ Security: Tool Poisoning – Research on MCP security risks
+https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks
+ MCP Scanner – Security auditing tool for MCP servers
+https://github.com/invariantlabs-ai/mcp-scan
+My MCP Example Repo (Arnie936) – Practical MCP implementation
+examples
+https://github.com/Arnie936/Agentic-MCP
+📚 RAG, Vector Databases & Data Processing
+ Pinecone – Managed vector database platform
+https://www.pinecone.io/
+ Supabase – Open source Firebase alternative with pgvector support
+https://supabase.com/
+ LlamaParse – Efficient parsing of PDFs/Documents for RAG
+https://github.com/run-llama/llama_parse
+ LlamaCloud – Managed services for LlamaIndex and parsing
+https://cloud.llamaindex.ai/
+ LlamaParse Colab Notebook – Hands-on example for parsing
+https://colab.research.google.com/drive/1P-XpCEt4QaLN7PQk-
+d1irliWBsVYMQl5
+ LightRAG – Simple and fast RAG framework
+https://github.com/HKUDS/LightRAG
+ GraphRAG – Microsoft's approach to graph-based RAG
+https://microsoft.github.io/graphrag/
+ CAG (Cache Augmented Generation) – Optimization technique for
+generation
+https://github.com/hhhuang/CAG
+ Contextual Retrieval – Anthropic’s guide on improving RAG retrieval
+https://www.anthropic.com/news/contextual-retrieval
+ NotebookLM – Google’s RAG-based notebook for research
+https://notebooklm.google/ 🎙️
+Voice, TTS & Realtime AI
+ ElevenLabs – Leading AI voice and text-to-speech platform
+https://elevenlabs.io/
+ LiveKit Cloud – Infrastructure for realtime audio/video AI agents
+https://cloud.livekit.io/
+ LiveKit (GitHub) – Open Source WebRTC stack
+https://github.com/livekit/livekit
+ LiveKit Agents Docs – Documentation for building voice agents
+https://docs.livekit.io/agents/start/voice-ai/
+ Vapi – Developer platform for voice AI agents
+https://vapi.ai/
+ Retell AI – Conversational voice AI for phone calls
+https://www.retellai.com/
+ Ultravox – Realtime multimodal voice AI model
+https://www.ultravox.ai/
+ Synthflow – No-code voice assistant builder
+https://synthflow.ai/
+ Leaping AI – AI voice solutions
+https://leapingai.com/de/
+ Fish Speech – Open-source text-to-speech model
+https://github.com/fishaudio/fish-speech
+ Pipecat – Framework for building voice/multimodal agents
+https://github.com/pipecat-ai/pipecat
+ Rime – Low latency, high quality TTS
+https://www.rime.ai/
+ Vonage – Communications APIs (often used with AI voice agents)
+https://www.vonage.com/
+ Tavus – Video generation and digital twin platform
+https://www.tavus.io/
+ Tavus & LiveKit Integration – Docs for avatars with LiveKit
+https://docs.tavus.io/sections/integrations/livekit
+ LiveKit Assistant Example (svpino) – Voice assistant reference
+implementation
+https://github.com/svpino/livekit-assistant/tree/main
+ My LiveKit Avatar Repo (Arnie936) – LiveKit with Avatar integration
+https://github.com/Arnie936/LiveKit-with-Avatar ⚙️
+Automation & Orchestration
+ n8n – Workflow automation tool (Self-hosted & Cloud)
+https://n8n.io/
+ n8n (GitHub) – Source code for self-hosting
+https://github.com/n8n-io/n8n
+ n8n Workflows – Hub with 8.000 Templates
+https://n8n.io/workflows/
+ n8n License FAQ – Info on fair code and sustainable use
+https://docs.n8n.io/sustainable-use-license/
+ Zapier – Popular no-code automation platform
+https://zapier.com/
+ Make – Visual automation and integration platform
+https://www.make.com/en
+ Render – Cloud hosting platform (good for hosting agents/n8n)
+https://render.com/
+ n8n Hosting (Hostinger) – VPS solutions optimized for n8n
+https://www.hostinger.com/vps/n8n-hosting
+🎨 Image, Video & 3D Generation
+ ComfyUI – Node-based GUI for Stable Diffusion
+https://www.comfy.org/
+ CivitAI – Hub for sharing AI art models and LoRAs
+https://civitai.com/
+ Replicate – Cloud API to run open-source AI models
+https://replicate.com/
+ Blender – 3D Creation Suite (required for Blender MCP)
+https://www.blender.org/download/ 🛠️
+Developer Tools & IDEs
+ Cursor – AI-first code editor (VS Code fork)
+https://cursor.com/
+ Visual Studio Code – The standard code editor
+https://code.visualstudio.com/
+ Google Antigravity – Experimental AI-native code editor
+https://antigravity.google/
+ Docker – Containerization platform
+https://www.docker.com/
+ Git – Version control system
+https://git-scm.com/
+ BotFather – Telegram Bot management tool
+https://telegram.me/BotFather
+🐍 Programming Languages & Package Managers
+ Python – Primary language for AI development
+https://www.python.org/ (Downloads: https://www.python.org/downloads/)
+ uv (Astral) – Extremely fast Python package installer and manager
+https://docs.astral.sh/uv/
+ pip – Standard package installer for Python
+https://pypi.org/project/pip/
+ pyenv – Python version management tool
+https://github.com/pyenv/pyenv
+ Node.js – JavaScript runtime
+https://nodejs.org/en (Downloads: https://nodejs.org/en/download)
+ NVM for Windows – Node version manager for Windows
+https://github.com/coreybutler/nvm-windows 🕸️
+Web Access & Scraping
+ Tavily – Search API optimized for LLM agents
+https://tavily.com/
+ Firecrawl – Turn websites into clean markdown for AI
+https://www.firecrawl.dev/ ⚖️
+Legal & Compliance
+ EU AI Act (Official) – Official website for the EU AI Act
+https://artificialintelligenceact.eu
+ OpenAI Data Residency – Info on GDPR compliance and EU data hosting
+https://openai.com/index/introducing-data-residency-in-europe/
+🖥️ Hardware & Utilities
+ GPU-Z – Graphics card information utility
+https://www.techpowerup.com/download/techpowerup-gpu-z/
+ CPU-Z – Processor and system information utility
+https://www.techpowerup.com/download/cpu-z/
+ WeatherAPI – Simple API for weather data
+https://www.weatherapi.com/
+ Format Converters:
+o CSV to Markdown: https://www.convertcsv.com/csv-to-markdown.htm
+o PDF to Markdown: https://pdf2md.morethan.io/
+o HTML to Markdown: https://codebeautify.org/html-to-markdown
+ Julia/Markdown Tip – How to include raw HTML in Julia Markdown
+https://discourse.julialang.org/t/including-raw-html-in-julia-markdown/26165
+📄 Research Papers (ArXiv & PDFs)
+ NotebookLM Paper – NotebookLM: A Notebook with LLM
+https://arxiv.org/pdf/2410.10869
+ KAG Paper – Knowledge Augmented Generation
+https://arxiv.org/pdf/2409.13731
+ Other Research Papers – (Collection of ArXiv links provided)
+o https://arxiv.org/html/2506.23260v1
+o https://arxiv.org/abs/2506.07402
+o https://arxiv.org/html/2402.13459v1
+o https://arxiv.org/abs/2308.14367
+o https://arxiv.org/pdf/2407.04295
+o https://arxiv.org/abs/2306.05499
